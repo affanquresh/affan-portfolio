@@ -16,16 +16,8 @@ const About = () => {
 
     const yBg = useTransform(scrollYProgress, [0,1], ["0%","-2500%"]);
 
-    // const name = ["H", "i", ",", " ", "I", "'", "m", "A", "y", "a" , "z"];
-    // const frontend = ['F', 'r', 'o', 'n', 't',, '-', 'e', 'n', 'd'];
-    // const developer = ['D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
-
-    const hi = "Hi, I'm Affan" 
-    const text = "Software Engineer";
-
-    // function useParallax(value: MotionValue<number>, distance: number) {
-    //     return useTransform(value, [0, 1], [-distance, distance]);
-    // }
+    const hi = "Hi, I'm Affan"
+    const text = "AI Engineer";
 
     return (
         <div className="container hero-section mx-auto py-3 pt-0 relative overflow-hidden">
@@ -51,32 +43,12 @@ const About = () => {
                                     )
                                 }   
                             </div>
-                        {/* <div className="inline mr-4">
-                            {
-                                name.map((char,index) =>
-                                    <span key={index} className="bounce myElement">{char}</span>
-                                )
-                            }
-                        </div>
-                        <div className="inline">
-                            {
-                                frontend.map((char, index) =>
-                                    <span key={index} className="bounce myElement">{char}</span>
-                                )
-                            }
-                        </div>
-                        <div>
-                            {
-                                developer.map((char, index) =>
-                                    <span key={index} className="bounce myElement">{char}</span>
-                                )
-                            }
-                        </div> */}
                     </h2>
 
                     <p className="w-4/5 mt-3">
-                    I build modern web applications and AI-powered products, combining strong frontend engineering with practical AI, intelligent workflows, and seamless user experiences.
-
+                    I build and ship real agentic AI products, not just notebooks — from live multi-agent
+                    systems and Retrieval-Augmented Generation (RAG) assistants to fine-tuned open-source LLMs,
+                    backed by a strong full-stack Python foundation across the entire GenAI stack.
                     </p>
 
                     <p className=" mt-3">A PROBLEM IS A CHANCE FOR YOU TO DO YOUR BEST.</p>
@@ -96,7 +68,6 @@ const About = () => {
                         duration: 2,
                         ease: "easeInOut",
                         times: [0, 0.2, 0.5, 0.8, 1],
-                        // repeat: Infinity,
                         repeatDelay: 1
                       }}
                     >
@@ -119,10 +90,7 @@ const About = () => {
 
                 <div className="flex-1  relative md:block flex items-center justify-center mt-[85px]">
                 <AnimationImg yBg={yBg}/>
-                    {/* <img className="laptop-img" width="1" height="1" src="../../public/laptop_img.svg" alt="laptop image"/> */}
-                    {/* <img className="laptop-img" width="1" height="1" src="../../public/laptop_img1.svg" alt="laptop image"/> */}
                     <img className="laptop-img" width="1" height="1" src="/images/laptop_img1.svg" alt="laptop" />
-                    {/* <img src="../../public/facebook.png"></img> */}
                 </div>
             </div>
 
