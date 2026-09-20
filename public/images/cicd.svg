@@ -1,0 +1,30 @@
+<svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular pipeline arrows -->
+  <!-- Top arc (CI - Build/Test) -->
+  <path d="M64 16C88 16 108 32 112 56" stroke="#10B981" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Right arrow head -->
+  <path d="M108 52L116 56L108 64" stroke="#10B981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Bottom arc (CD - Deploy) -->
+  <path d="M112 72C108 96 88 112 64 112" stroke="#F59E0B" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Bottom arrow head -->
+  <path d="M68 108L64 116L56 108" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Left arc (Return loop) -->
+  <path d="M56 112C32 108 16 88 16 64" stroke="#3B82F6" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Left arrow head -->
+  <path d="M20 68L12 64L20 56" stroke="#3B82F6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Top-left arc (Complete) -->
+  <path d="M16 56C20 32 40 16 64 16" stroke="#8B5CF6" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Top arrow head -->
+  <path d="M60 20L64 12L72 20" stroke="#8B5CF6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Center nodes representing stages -->
+  <circle cx="64" cy="36" r="5" fill="#10B981"/>
+  <text x="64" y="39" font-family="monospace" font-size="6" fill="#fff" text-anchor="middle">C</text>
+  <circle cx="88" cy="64" r="5" fill="#F59E0B"/>
+  <text x="88" y="67" font-family="monospace" font-size="6" fill="#fff" text-anchor="middle">B</text>
+  <circle cx="64" cy="92" r="5" fill="#3B82F6"/>
+  <text x="64" y="95" font-family="monospace" font-size="6" fill="#fff" text-anchor="middle">D</text>
+  <circle cx="40" cy="64" r="5" fill="#8B5CF6"/>
+  <text x="40" y="67" font-family="monospace" font-size="6" fill="#fff" text-anchor="middle">T</text>
+  <!-- Center infinity/loop symbol -->
+  <text x="64" y="68" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#6B7280" text-anchor="middle">&#8734;</text>
+</svg>

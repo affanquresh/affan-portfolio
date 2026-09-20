@@ -1,0 +1,39 @@
+<svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Central neural hub -->
+  <circle cx="64" cy="64" r="14" fill="#A855F7"/>
+  <!-- Inner ring nodes -->
+  <circle cx="64" cy="28" r="7" fill="#C084FC"/>
+  <circle cx="94" cy="42" r="7" fill="#C084FC"/>
+  <circle cx="94" cy="86" r="7" fill="#C084FC"/>
+  <circle cx="64" cy="100" r="7" fill="#C084FC"/>
+  <circle cx="34" cy="86" r="7" fill="#C084FC"/>
+  <circle cx="34" cy="42" r="7" fill="#C084FC"/>
+  <!-- Outer ring nodes -->
+  <circle cx="64" cy="12" r="4.5" fill="#E9D5FF"/>
+  <circle cx="106" cy="34" r="4.5" fill="#E9D5FF"/>
+  <circle cx="106" cy="94" r="4.5" fill="#E9D5FF"/>
+  <circle cx="64" cy="116" r="4.5" fill="#E9D5FF"/>
+  <circle cx="22" cy="94" r="4.5" fill="#E9D5FF"/>
+  <circle cx="22" cy="34" r="4.5" fill="#E9D5FF"/>
+  <!-- Connections inner to hub -->
+  <line x1="64" y1="42" x2="64" y2="50" stroke="#C084FC" stroke-width="2.5"/>
+  <line x1="80" y1="48" x2="76" y2="55" stroke="#C084FC" stroke-width="2.5"/>
+  <line x1="80" y1="80" x2="76" y2="73" stroke="#C084FC" stroke-width="2.5"/>
+  <line x1="64" y1="86" x2="64" y2="78" stroke="#C084FC" stroke-width="2.5"/>
+  <line x1="48" y1="80" x2="52" y2="73" stroke="#C084FC" stroke-width="2.5"/>
+  <line x1="48" y1="48" x2="52" y2="55" stroke="#C084FC" stroke-width="2.5"/>
+  <!-- Connections inner to outer -->
+  <line x1="64" y1="28" x2="64" y2="16.5" stroke="#E9D5FF" stroke-width="1.8"/>
+  <line x1="94" y1="42" x2="101.5" y2="37" stroke="#E9D5FF" stroke-width="1.8"/>
+  <line x1="94" y1="86" x2="101.5" y2="91" stroke="#E9D5FF" stroke-width="1.8"/>
+  <line x1="64" y1="100" x2="64" y2="111.5" stroke="#E9D5FF" stroke-width="1.8"/>
+  <line x1="34" y1="86" x2="26.5" y2="91" stroke="#E9D5FF" stroke-width="1.8"/>
+  <line x1="34" y1="42" x2="26.5" y2="37" stroke="#E9D5FF" stroke-width="1.8"/>
+  <!-- Cross connections for density -->
+  <line x1="64" y1="28" x2="94" y2="42" stroke="#A855F7" stroke-width="1.5" opacity="0.4"/>
+  <line x1="94" y1="42" x2="94" y2="86" stroke="#A855F7" stroke-width="1.5" opacity="0.4"/>
+  <line x1="94" y1="86" x2="64" y2="100" stroke="#A855F7" stroke-width="1.5" opacity="0.4"/>
+  <line x1="64" y1="100" x2="34" y2="86" stroke="#A855F7" stroke-width="1.5" opacity="0.4"/>
+  <line x1="34" y1="86" x2="34" y2="42" stroke="#A855F7" stroke-width="1.5" opacity="0.4"/>
+  <line x1="34" y1="42" x2="64" y2="28" stroke="#A855F7" stroke-width="1.5" opacity="0.4"/>
+</svg>
