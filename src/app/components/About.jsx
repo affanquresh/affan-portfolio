@@ -34,6 +34,7 @@ const About = () => {
                                     )
                                 }   
                             </div>
+                        <br />
                         <div className="inline-block">
                                 {
                                     text.split("").map((char, index) =>
